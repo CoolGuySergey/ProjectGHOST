@@ -1,0 +1,54 @@
+#nexus
+begin sets;
+	charset ATP6f = 1-717\3;
+	charset ATP6s = 2-718\3;
+	charset ATP6 = 3-719\3;
+
+	charset ATP8f = 721-958\3;
+	charset ATP8s = 722-959\3;
+	charset ATP8t = 723-960\3;
+
+	charset COX1f = 961-2522\3;
+	charset COX1s = 962-2523\3;
+	charset COX1t = 963-2524\3;
+
+	charset COX2f = 2525-3227\3;
+	charset COX2s = 2526-3228\3;
+	charset COX2t = 2527-3229\3;
+
+	charset COX3f = 3231-4020\3;
+	charset COX3s = 3232-4021\3;
+	charset COX3t = 3233-4022\3;
+
+	charset CYTBf = 4023-5181\3;
+	charset CYTBs = 4024-5182\3;
+	charset CYTBt = 4025-5183\3;
+
+	charset ND1f = 5184-6161\3;
+	charset ND1s = 5185-6162\3;
+	charset ND1t = 5186-6163\3;
+
+	charset ND2f = 6164-7447\3;
+	charset ND2s = 6165-7448\3;
+	charset ND2t = 6166-7449\3;
+
+	charset ND3f = 7450-7868\3;
+	charset ND3s = 7451-7869\3;
+	charset ND3t = 7452-7870\3;
+
+	charset ND4f = 7871-9339\3;
+	charset ND4s = 7872-9340\3;
+	charset ND4t = 7873-9341\3;
+
+	charset ND4Lf = 9342-9702\3;
+	charset ND4Ls = 9343-9703\3;
+	charset ND4Lt = 9344-9704\3;
+
+	charset ND5f = 9705-11537\3;
+	charset ND5s = 9706-11538\3;
+	charset ND5t = 9707-11539\3;
+
+	charset ND6f = 11540-12338\3;
+	charset ND6s = 11541-12339\3;
+	charset ND6t = 11542-12340\3;
+end;

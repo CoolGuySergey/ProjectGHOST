@@ -1,0 +1,437 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    hpc-crick (AVX, 251 GB RAM)
+Command: iqtree -s TransSM.fasta -pre TransUnlinkedBOTH -sp TransParts.nex -m MFP+Merge -bb 1000 -bsam GENESITE -bnni
+Seed:    202687 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May  5 03:58:43 2020
+Kernel:  AVX - 1 threads (40 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 40 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file TransParts.nex ...
+Reading alignment file TransSM.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 94 sequences with 11913 columns, 8960 distinct patterns
+8118 parsimony-informative, 928 singleton sites, 2867 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  NC_003372    6.72%    failed      0.18%
+   2  NC_003970    6.91%    failed      0.00%
+   3  NC_009964    6.49%    failed      0.00%
+   4  NC_010964    6.78%    failed      0.00%
+   5  NC_011320    6.34%    passed     12.50%
+   6  NC_011322    6.33%    failed      0.00%
+   7  NC_011324    6.98%    failed      0.00%
+   8  NC_011326    6.60%    passed     92.84%
+   9  NC_011328    6.46%    failed      0.00%
+  10  NC_011329    5.91%    failed      0.00%
+  11  NC_012139    5.82%    failed      0.00%
+  12  NC_012144    5.73%    failed      0.00%
+  13  NC_012765    6.28%    failed      0.00%
+  14  NC_013249    6.24%    failed      0.29%
+  15  NC_013254    7.08%    failed      0.00%
+  16  NC_013576    7.43%    failed      0.00%
+  17  NC_013580    6.43%    failed      0.00%
+  18  NC_013582    7.03%    failed      0.00%
+  19  NC_016469    5.76%    failed      0.00%
+  20  NC_018349    6.65%    failed      1.72%
+  21  NC_018350    6.84%    failed      4.49%
+  22  NC_018352    6.66%    passed     42.42%
+  23  NC_018353    8.34%    failed      0.00%
+  24  NC_018354    6.49%    failed      0.00%
+  25  NC_022680    6.35%    passed     18.55%
+  26  NC_023246    6.56%    failed      0.00%
+  27  NC_024271    6.78%    failed      0.00%
+  28  NC_024633    6.66%    failed      0.00%
+  29  NC_025243    6.75%    failed      0.00%
+  30  NC_025332    6.74%    failed      0.00%
+  31  NC_025945    6.48%    failed      0.00%
+  32  NC_027114    6.66%    failed      0.00%
+  33  NC_027176    6.61%    failed      0.00%
+  34  NC_027256    7.19%    failed      0.00%
+  35  NC_027577    6.61%    failed      0.69%
+  36  NC_027580    6.72%    failed      0.00%
+  37  NC_028203    6.70%    failed      0.02%
+  38  NC_028541    6.78%    failed      0.00%
+  39  NC_028601    7.18%    passed     16.52%
+  40  NC_028603    8.09%    failed      0.00%
+  41  NC_028605    7.44%    failed      0.00%
+  42  NC_028606    7.65%    failed      0.00%
+  43  NC_028607    7.87%    passed     62.63%
+  44  NC_028609    7.14%    passed     37.49%
+  45  NC_028611    6.77%    failed      0.00%
+  46  NC_028612    7.67%    passed     32.81%
+  47  NC_028613    7.78%    failed      0.15%
+  48  NC_029515    6.58%    failed      0.00%
+  49  NC_030060    6.68%    passed     82.21%
+  50  NC_030592    5.59%    failed      0.00%
+  51  NC_030593    5.69%    failed      0.00%
+  52  NC_030758    6.46%    failed      0.00%
+  53  NC_030764    6.61%    passed      8.30%
+  54  NC_030778    6.58%    failed      0.00%
+  55  NC_033340    6.62%    failed      0.00%
+  56  NC_034293    6.35%    failed      0.00%
+  57  NC_035677    7.16%    passed     17.41%
+  58  NC_035714    6.09%    failed      1.62%
+  59  NC_036104    6.71%    failed      0.15%
+  60  NC_036108    6.66%    failed      0.76%
+  61  NC_036261    7.31%    failed      0.00%
+  62  NC_036265    7.32%    failed      0.00%
+  63  NC_036266    7.65%    failed      0.00%
+  64  NC_036267    7.47%    failed      0.02%
+  65  NC_036269    7.61%    failed      0.00%
+  66  NC_036270    7.77%    failed      0.00%
+  67  NC_036271    7.11%    failed      0.00%
+  68  NC_036273    7.42%    failed      0.00%
+  69  NC_036274    7.67%    failed      0.00%
+  70  NC_036275    7.34%    failed      0.00%
+  71  NC_036276    7.62%    failed      0.00%
+  72  NC_036277    8.30%    failed      0.00%
+  73  NC_036278    7.26%    failed      0.00%
+  74  NC_036279    6.96%    passed     20.86%
+  75  NC_036291    7.71%    failed      0.00%
+  76  NC_036678    7.19%    failed      0.00%
+  77  NC_037196    6.61%    failed      0.00%
+  78  NC_037200    7.19%    failed      0.00%
+  79  NC_037749    6.22%    passed     29.39%
+  80  NC_038089    6.46%    failed      0.00%
+  81  NC_038090    6.46%    failed      0.00%
+  82  NC_038115    6.48%    passed     80.20%
+  83  NC_038197    7.77%    failed      0.00%
+  84  NC_039657    6.60%    failed      0.00%
+  85  NC_039689    7.35%    failed      0.00%
+  86  NC_041172    7.28%    failed      0.00%
+  87  NC_041669    6.51%    passed     49.66%
+  88  NC_042198    7.50%    passed     38.97%
+  89  NC_042417    7.25%    failed      0.00%
+  90  NC_042614    6.35%    failed      0.00%
+  91  NC_042820    7.39%    failed      0.01%
+  92  NC_042828    6.96%    failed      0.00%
+  93  NC_042922    6.56%    passed     18.74%
+  94  NC_043883    6.64%    failed      0.00%
+****  TOTAL        6.88%  77 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 39 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		94	236	153	54	MFP+Merge	ATP6f
+2		94	236	91	109	MFP+Merge	ATP6s
+3		94	236	220	7	MFP+Merge	ATP6t
+4		94	65	47	13	MFP+Merge	ATP8f
+5		94	65	46	11	MFP+Merge	ATP8s
+6		94	65	55	4	MFP+Merge	ATP8t
+7		94	537	229	240	MFP+Merge	COX1f
+8		94	537	115	343	MFP+Merge	COX1s
+9		94	537	510	23	MFP+Merge	COX1t
+10		94	230	153	56	MFP+Merge	COX2f
+11		94	230	106	97	MFP+Merge	COX2s
+12		94	230	227	1	MFP+Merge	COX2t
+13		94	264	149	87	MFP+Merge	COX3f
+14		94	264	101	139	MFP+Merge	COX3s
+15		94	264	259	2	MFP+Merge	COX3t
+16		94	385	218	132	MFP+Merge	CYTBf
+17		94	385	160	182	MFP+Merge	CYTBs
+18		94	385	376	1	MFP+Merge	CYTBt
+19		94	323	211	77	MFP+Merge	ND1f
+20		94	323	138	137	MFP+Merge	ND1s
+21		94	323	316	4	MFP+Merge	ND1t
+22		94	375	298	51	MFP+Merge	ND2f
+23		94	375	237	94	MFP+Merge	ND2s
+24		94	375	351	19	MFP+Merge	ND2t
+25		94	125	87	27	MFP+Merge	ND3f
+26		94	125	70	42	MFP+Merge	ND3s
+27		94	125	116	1	MFP+Merge	ND3t
+28		94	468	339	107	MFP+Merge	ND4f
+29		94	468	233	184	MFP+Merge	ND4s
+30		94	468	438	21	MFP+Merge	ND4t
+31		94	100	84	8	MFP+Merge	ND4Lf
+32		94	100	58	30	MFP+Merge	ND4Ls
+33		94	100	96	2	MFP+Merge	ND4Lt
+34		94	606	416	152	MFP+Merge	ND5f
+35		94	606	317	226	MFP+Merge	ND5s
+36		94	606	571	23	MFP+Merge	ND5t
+37		94	257	178	50	MFP+Merge	ND6f
+38		94	257	152	72	MFP+Merge	ND6s
+39		94	257	197	39	MFP+Merge	ND6t
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.160 seconds
+NOTE: ModelFinder requires 329 MB RAM!
+Testing GTR+F+G on supermatrix...
+GTR+F+G4 / LnL: -599444.146 / df: 194 / AIC: 1199276.293 / AICc: 1199282.749 / BIC: 1200709.057
+Selecting individual models for 39 charsets using BIC...
+ No. Model        Score       Charset
+   1 GTR+F+I+G4   22663.130   ATP6f
+   2 TVM+F+I+G4   11421.317   ATP6s
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+   3 TN+F+I+G4    35155.313   ATP6t
+   4 TN+F+I+G4    7192.104    ATP8f
+   5 TIM2e+G4     6479.715    ATP8s
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+   6 TPM3+F+G4    8943.732    ATP8t
+   7 GTR+F+R4     31605.661   COX1f
+   8 TVM+F+I+G4   13853.952   COX1s
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+   9 HKY+F+R10    79899.437   COX1t
+  10 GTR+F+R5     20502.187   COX2f	0h:16m:46s (0h:48m:39s left)
+  11 GTR+F+I+G4   11435.146   COX2s	0h:17m:10s (0h:43m:42s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  12 TPM2u+F+G4   35749.169   COX2t	0h:19m:7s (0h:43m:2s left)
+  13 GTR+F+R5     21714.879   COX3f	0h:20m:8s (0h:40m:17s left)
+  14 GTR+F+I+G4   11791.651   COX3s	0h:20m:41s (0h:36m:56s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  15 TIM3+F+I+G4  40453.211   COX3t	0h:24m:38s (0h:39m:25s left)
+  16 GTR+F+R6     31849.601   CYTBf	0h:26m:26s (0h:38m:0s left)
+  17 GTR+F+I+G4   16917.143   CYTBs	0h:27m:3s (0h:35m:1s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  18 TN+F+R9      59655.380   CYTBt	0h:33m:17s (0h:38m:50s left)
+  19 TVM+F+I+G4   28807.216   ND1f	0h:34m:49s (0h:36m:39s left)
+  20 GTR+F+I+G4   15629.425   ND1s	0h:35m:19s (0h:33m:33s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  21 TPM2+F+I+G4  47343.652   ND1t	0h:38m:4s (0h:32m:38s left)
+  22 GTR+F+R5     46812.843   ND2f	0h:40m:11s (0h:31m:3s left)
+  23 TVM+F+I+G4   29782.613   ND2s	0h:41m:46s (0h:29m:3s left)
+  24 TPM2u+F+G4   61165.692   ND2t	0h:44m:7s (0h:27m:34s left)
+  25 GTR+F+I+G4   13914.177   ND3f	0h:44m:45s (0h:25m:3s left)
+  26 TVM+F+I+G4   8607.965    ND3s	0h:45m:10s (0h:22m:35s left)
+  27 TIM3+F+G4    20246.826   ND3t	0h:45m:54s (0h:20m:24s left)
+  28 TVM+F+R5     47148.255   ND4f	0h:49m:0s (0h:19m:15s left)
+  29 GTR+F+R5     29493.445   ND4s	0h:50m:24s (0h:17m:22s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  30 TPM3u+F+I+G4 68448.262   ND4t	0h:55m:26s (0h:16m:37s left)
+  31 TVM+F+R4     10859.601   ND4Lf	0h:55m:46s (0h:14m:23s left)
+  32 TVM+F+I+G4   7520.322    ND4Ls	0h:56m:1s (0h:12m:15s left)
+  33 TN+F+I+G4    14536.086   ND4Lt	0h:56m:34s (0h:10m:17s left)
+  34 GTR+F+R6     57694.505   ND5f	0h:59m:46s (0h:8m:47s left)
+  35 GTR+F+R6     39701.722   ND5s	1h:2m:8s (0h:7m:6s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  36 TIM3+F+I+G4  87047.564   ND5t	1h:10m:41s (0h:5m:53s left)
+  37 GTR+F+I+G4   24505.382   ND6f	1h:12m:36s (0h:3m:55s left)
+  38 TVM+F+R5     17384.470   ND6s	1h:13m:43s (0h:1m:56s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  39 TPM2+F+G4    29233.987   ND6t	1h:15m:13s (0h:0m:0s left)
+Full partition model BIC score: 1202433.077 (LnL: -565350.288  df:7643)
+Partition information was printed to TransUnlinkedBOTH.best_scheme.nex
+Partition information in Raxml format was printed to TransUnlinkedBOTH.best_scheme
+
+WARNING: Partition model has worse fit than single model!
+WARNING: Add MERGE to -m option to increase model fit!
+
+All model information printed to TransUnlinkedBOTH.model.gz
+CPU time for ModelFinder: 4513.092 seconds (1h:15m:13s)
+Wall-clock time for ModelFinder: 4513.891 seconds (1h:15m:13s)
+Generating 1000 samples for ultrafast bootstrap (seed: 202687)...
+
+NOTE: 181 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Optimizing TIM3+F+I+G4 parameters for partition ND5t (193 free parameters)
+Optimizing HKY+F+R10 parameters for partition COX1t (207 free parameters)
+Optimizing GTR+F+R6 parameters for partition ND5f (203 free parameters)
+Optimizing TPM3u+F+I+G4 parameters for partition ND4t (192 free parameters)
+Optimizing GTR+F+R6 parameters for partition ND5s (203 free parameters)
+Optimizing TN+F+R9 parameters for partition CYTBt (206 free parameters)
+Optimizing TVM+F+R5 parameters for partition ND4f (200 free parameters)
+Optimizing TPM2u+F+G4 parameters for partition ND2t (191 free parameters)
+Optimizing GTR+F+R5 parameters for partition ND2f (201 free parameters)
+Optimizing TPM2+F+I+G4 parameters for partition ND1t (192 free parameters)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Optimizing TVM+F+I+G4 parameters for partition ND2s (194 free parameters)
+Optimizing GTR+F+R4 parameters for partition COX1f (199 free parameters)
+Optimizing GTR+F+R5 parameters for partition ND4s (201 free parameters)
+Optimizing TIM3+F+I+G4 parameters for partition COX3t (193 free parameters)
+Optimizing GTR+F+R6 parameters for partition CYTBf (203 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND1f (194 free parameters)
+Optimizing TPM2+F+G4 parameters for partition ND6t (191 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND6f (195 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ATP6t (192 free parameters)
+Optimizing TPM2u+F+G4 parameters for partition COX2t (191 free parameters)
+Optimizing TVM+F+R5 parameters for partition ND6s (200 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition CYTBs (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND1s (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ATP6f (195 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition COX1s (194 free parameters)
+Optimizing GTR+F+R5 parameters for partition COX3f (201 free parameters)
+Optimizing GTR+F+R5 parameters for partition COX2f (201 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ATP6s (194 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition COX2s (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition COX3s (195 free parameters)
+Optimizing TIM3+F+G4 parameters for partition ND3t (192 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND3f (195 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ND4Lt (192 free parameters)
+Optimizing TVM+F+R4 parameters for partition ND4Lf (198 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND3s (194 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND4Ls (194 free parameters)
+Optimizing TPM3+F+G4 parameters for partition ATP8t (191 free parameters)
+Optimizing TIM2e+G4 parameters for partition ATP8s (189 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ATP8f (192 free parameters)
+Optimal log-likelihood: -566144.453
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Computing ML distances based on estimated model parameters... 3.328 sec
+Computing BIONJ tree...
+0.019 seconds
+Log-likelihood of BIONJ tree: -565030.597
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 21.895 second
+Computing log-likelihood of 98 initial trees ... 81.252 seconds
+Current best score: -565030.597
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -564470.335
+Estimate model parameters (epsilon = 0.100)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -564154.063
+Iteration 10 / LogL: -564275.478 / Time: 0h:7m:59s
+Iteration 20 / LogL: -564416.380 / Time: 0h:9m:23s
+Finish initializing candidate tree set (20)
+Current best tree score: -564154.063 / CPU time: 359.188
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -564798.186 / Time: 0h:11m:22s (0h:28m:13s left)
+Iteration 40 / LogL: -564587.918 / Time: 0h:13m:18s (0h:21m:9s left)
+Iteration 50 / LogL: -564888.727 / Time: 0h:15m:10s (0h:16m:6s left)
+Iteration 60 / LogL: -565062.966 / Time: 0h:17m:0s (0h:12m:6s left)
+Iteration 70 / LogL: -564698.971 / Time: 0h:18m:48s (0h:8m:43s left)
+Iteration 80 / LogL: -564648.330 / Time: 0h:20m:40s (0h:5m:45s left)
+Iteration 90 / LogL: -564688.403 / Time: 0h:22m:32s (0h:3m:2s left)
+Iteration 100 / LogL: -564530.607 / Time: 0h:24m:26s (0h:0m:29s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 953 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:47m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Optimizing TIM3+F+I+G4 parameters for partition ND5t (193 free parameters)
+Optimizing HKY+F+R10 parameters for partition COX1t (207 free parameters)
+Optimizing GTR+F+R6 parameters for partition ND5f (203 free parameters)
+Optimizing TPM3u+F+I+G4 parameters for partition ND4t (192 free parameters)
+Optimizing GTR+F+R6 parameters for partition ND5s (203 free parameters)
+Optimizing TN+F+R9 parameters for partition CYTBt (206 free parameters)
+Optimizing TVM+F+R5 parameters for partition ND4f (200 free parameters)
+Optimizing TPM2u+F+G4 parameters for partition ND2t (191 free parameters)
+Optimizing GTR+F+R5 parameters for partition ND2f (201 free parameters)
+Optimizing TPM2+F+I+G4 parameters for partition ND1t (192 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND2s (194 free parameters)
+Optimizing GTR+F+R4 parameters for partition COX1f (199 free parameters)
+Optimizing GTR+F+R5 parameters for partition ND4s (201 free parameters)
+Optimizing TIM3+F+I+G4 parameters for partition COX3t (193 free parameters)
+Optimizing GTR+F+R6 parameters for partition CYTBf (203 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND1f (194 free parameters)
+Optimizing TPM2+F+G4 parameters for partition ND6t (191 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND6f (195 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ATP6t (192 free parameters)
+Optimizing TPM2u+F+G4 parameters for partition COX2t (191 free parameters)
+Optimizing TVM+F+R5 parameters for partition ND6s (200 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition CYTBs (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND1s (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ATP6f (195 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition COX1s (194 free parameters)
+Optimizing GTR+F+R5 parameters for partition COX3f (201 free parameters)
+Optimizing GTR+F+R5 parameters for partition COX2f (201 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ATP6s (194 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition COX2s (195 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition COX3s (195 free parameters)
+Optimizing TIM3+F+G4 parameters for partition ND3t (192 free parameters)
+Optimizing GTR+F+I+G4 parameters for partition ND3f (195 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ND4Lt (192 free parameters)
+Optimizing TVM+F+R4 parameters for partition ND4Lf (198 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND3s (194 free parameters)
+Optimizing TVM+F+I+G4 parameters for partition ND4Ls (194 free parameters)
+Optimizing TPM3+F+G4 parameters for partition ATP8t (191 free parameters)
+Optimizing TIM2e+G4 parameters for partition ATP8s (189 free parameters)
+Optimizing TN+F+I+G4 parameters for partition ATP8f (192 free parameters)
+Optimal log-likelihood: -564116.146
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BEST SCORE FOUND : -564116.146
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file TransUnlinkedBOTH.splits.nex
+Total tree length: 137.770
+
+Total number of iterations: 103
+CPU time used for tree search: 2651.848 sec (0h:44m:11s)
+Wall-clock time used for tree search: 2655.055 sec (0h:44m:15s)
+Total CPU time used: 2905.028 sec (0h:48m:25s)
+Total wall-clock time used: 2908.466 sec (0h:48m:28s)
+UFBoot trees printed to TransUnlinkedBOTH.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file TransUnlinkedBOTH.splits.nex...
+94 taxa and 546 splits.
+Consensus tree written to TransUnlinkedBOTH.contree
+Reading input trees file TransUnlinkedBOTH.contree
+Log-likelihood of consensus tree: -564102.163
+
+Analysis results written to: 
+  IQ-TREE report:                TransUnlinkedBOTH.iqtree
+  Maximum-likelihood tree:       TransUnlinkedBOTH.treefile
+  Likelihood distances:          TransUnlinkedBOTH.mldist
+  Best partitioning scheme:      TransUnlinkedBOTH.best_scheme.nex
+           in RAxML format:      TransUnlinkedBOTH.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          TransUnlinkedBOTH.splits.nex
+  Consensus tree:                TransUnlinkedBOTH.contree
+  UFBoot trees:                  TransUnlinkedBOTH.ufboot
+  Screen log file:               TransUnlinkedBOTH.log
+
+Date and Time: Tue May  5 06:02:31 2020

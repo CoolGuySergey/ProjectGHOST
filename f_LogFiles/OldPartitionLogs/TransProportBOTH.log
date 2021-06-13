@@ -1,0 +1,945 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ctag (SSE4.2, 125 GB RAM)
+Command: iqtree -s TransSM.fasta -pre TransProportBOTH -spp TransParts.nex -m MFP+Merge -bb 1000 -bsam GENESITE -bnni
+Seed:    753672 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May  5 03:59:05 2020
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file TransParts.nex ...
+Reading alignment file TransSM.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 94 sequences with 11913 columns, 8960 distinct patterns
+8118 parsimony-informative, 928 singleton sites, 2867 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  NC_003372    6.72%    failed      0.18%
+   2  NC_003970    6.91%    failed      0.00%
+   3  NC_009964    6.49%    failed      0.00%
+   4  NC_010964    6.78%    failed      0.00%
+   5  NC_011320    6.34%    passed     12.50%
+   6  NC_011322    6.33%    failed      0.00%
+   7  NC_011324    6.98%    failed      0.00%
+   8  NC_011326    6.60%    passed     92.84%
+   9  NC_011328    6.46%    failed      0.00%
+  10  NC_011329    5.91%    failed      0.00%
+  11  NC_012139    5.82%    failed      0.00%
+  12  NC_012144    5.73%    failed      0.00%
+  13  NC_012765    6.28%    failed      0.00%
+  14  NC_013249    6.24%    failed      0.29%
+  15  NC_013254    7.08%    failed      0.00%
+  16  NC_013576    7.43%    failed      0.00%
+  17  NC_013580    6.43%    failed      0.00%
+  18  NC_013582    7.03%    failed      0.00%
+  19  NC_016469    5.76%    failed      0.00%
+  20  NC_018349    6.65%    failed      1.72%
+  21  NC_018350    6.84%    failed      4.49%
+  22  NC_018352    6.66%    passed     42.42%
+  23  NC_018353    8.34%    failed      0.00%
+  24  NC_018354    6.49%    failed      0.00%
+  25  NC_022680    6.35%    passed     18.55%
+  26  NC_023246    6.56%    failed      0.00%
+  27  NC_024271    6.78%    failed      0.00%
+  28  NC_024633    6.66%    failed      0.00%
+  29  NC_025243    6.75%    failed      0.00%
+  30  NC_025332    6.74%    failed      0.00%
+  31  NC_025945    6.48%    failed      0.00%
+  32  NC_027114    6.66%    failed      0.00%
+  33  NC_027176    6.61%    failed      0.00%
+  34  NC_027256    7.19%    failed      0.00%
+  35  NC_027577    6.61%    failed      0.69%
+  36  NC_027580    6.72%    failed      0.00%
+  37  NC_028203    6.70%    failed      0.02%
+  38  NC_028541    6.78%    failed      0.00%
+  39  NC_028601    7.18%    passed     16.52%
+  40  NC_028603    8.09%    failed      0.00%
+  41  NC_028605    7.44%    failed      0.00%
+  42  NC_028606    7.65%    failed      0.00%
+  43  NC_028607    7.87%    passed     62.63%
+  44  NC_028609    7.14%    passed     37.49%
+  45  NC_028611    6.77%    failed      0.00%
+  46  NC_028612    7.67%    passed     32.81%
+  47  NC_028613    7.78%    failed      0.15%
+  48  NC_029515    6.58%    failed      0.00%
+  49  NC_030060    6.68%    passed     82.21%
+  50  NC_030592    5.59%    failed      0.00%
+  51  NC_030593    5.69%    failed      0.00%
+  52  NC_030758    6.46%    failed      0.00%
+  53  NC_030764    6.61%    passed      8.30%
+  54  NC_030778    6.58%    failed      0.00%
+  55  NC_033340    6.62%    failed      0.00%
+  56  NC_034293    6.35%    failed      0.00%
+  57  NC_035677    7.16%    passed     17.41%
+  58  NC_035714    6.09%    failed      1.62%
+  59  NC_036104    6.71%    failed      0.15%
+  60  NC_036108    6.66%    failed      0.76%
+  61  NC_036261    7.31%    failed      0.00%
+  62  NC_036265    7.32%    failed      0.00%
+  63  NC_036266    7.65%    failed      0.00%
+  64  NC_036267    7.47%    failed      0.02%
+  65  NC_036269    7.61%    failed      0.00%
+  66  NC_036270    7.77%    failed      0.00%
+  67  NC_036271    7.11%    failed      0.00%
+  68  NC_036273    7.42%    failed      0.00%
+  69  NC_036274    7.67%    failed      0.00%
+  70  NC_036275    7.34%    failed      0.00%
+  71  NC_036276    7.62%    failed      0.00%
+  72  NC_036277    8.30%    failed      0.00%
+  73  NC_036278    7.26%    failed      0.00%
+  74  NC_036279    6.96%    passed     20.86%
+  75  NC_036291    7.71%    failed      0.00%
+  76  NC_036678    7.19%    failed      0.00%
+  77  NC_037196    6.61%    failed      0.00%
+  78  NC_037200    7.19%    failed      0.00%
+  79  NC_037749    6.22%    passed     29.39%
+  80  NC_038089    6.46%    failed      0.00%
+  81  NC_038090    6.46%    failed      0.00%
+  82  NC_038115    6.48%    passed     80.20%
+  83  NC_038197    7.77%    failed      0.00%
+  84  NC_039657    6.60%    failed      0.00%
+  85  NC_039689    7.35%    failed      0.00%
+  86  NC_041172    7.28%    failed      0.00%
+  87  NC_041669    6.51%    passed     49.66%
+  88  NC_042198    7.50%    passed     38.97%
+  89  NC_042417    7.25%    failed      0.00%
+  90  NC_042614    6.35%    failed      0.00%
+  91  NC_042820    7.39%    failed      0.01%
+  92  NC_042828    6.96%    failed      0.00%
+  93  NC_042922    6.56%    passed     18.74%
+  94  NC_043883    6.64%    failed      0.00%
+****  TOTAL        6.88%  77 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 39 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		94	236	153	54	MFP+Merge	ATP6f
+2		94	236	91	109	MFP+Merge	ATP6s
+3		94	236	220	7	MFP+Merge	ATP6t
+4		94	65	47	13	MFP+Merge	ATP8f
+5		94	65	46	11	MFP+Merge	ATP8s
+6		94	65	55	4	MFP+Merge	ATP8t
+7		94	537	229	240	MFP+Merge	COX1f
+8		94	537	115	343	MFP+Merge	COX1s
+9		94	537	510	23	MFP+Merge	COX1t
+10		94	230	153	56	MFP+Merge	COX2f
+11		94	230	106	97	MFP+Merge	COX2s
+12		94	230	227	1	MFP+Merge	COX2t
+13		94	264	149	87	MFP+Merge	COX3f
+14		94	264	101	139	MFP+Merge	COX3s
+15		94	264	259	2	MFP+Merge	COX3t
+16		94	385	218	132	MFP+Merge	CYTBf
+17		94	385	160	182	MFP+Merge	CYTBs
+18		94	385	376	1	MFP+Merge	CYTBt
+19		94	323	211	77	MFP+Merge	ND1f
+20		94	323	138	137	MFP+Merge	ND1s
+21		94	323	316	4	MFP+Merge	ND1t
+22		94	375	298	51	MFP+Merge	ND2f
+23		94	375	237	94	MFP+Merge	ND2s
+24		94	375	351	19	MFP+Merge	ND2t
+25		94	125	87	27	MFP+Merge	ND3f
+26		94	125	70	42	MFP+Merge	ND3s
+27		94	125	116	1	MFP+Merge	ND3t
+28		94	468	339	107	MFP+Merge	ND4f
+29		94	468	233	184	MFP+Merge	ND4s
+30		94	468	438	21	MFP+Merge	ND4t
+31		94	100	84	8	MFP+Merge	ND4Lf
+32		94	100	58	30	MFP+Merge	ND4Ls
+33		94	100	96	2	MFP+Merge	ND4Lt
+34		94	606	416	152	MFP+Merge	ND5f
+35		94	606	317	226	MFP+Merge	ND5s
+36		94	606	571	23	MFP+Merge	ND5t
+37		94	257	178	50	MFP+Merge	ND6f
+38		94	257	152	72	MFP+Merge	ND6s
+39		94	257	197	39	MFP+Merge	ND6t
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.263 seconds
+NOTE: ModelFinder requires 328 MB RAM!
+Testing GTR+F+G on supermatrix...
+GTR+F+G4 / LnL: -598885.505 / df: 194 / AIC: 1198159.009 / AICc: 1198165.466 / BIC: 1199591.774
+Selecting individual models for 39 charsets using BIC...
+ No. Model        Score       Charset
+   1 GTR+F+R5     21871.943   ATP6f
+   2 TVM+F+I+G4   10596.983   ATP6s
+   3 TPM2u+F+R5   34340.978   ATP6t
+   4 TN+F+I+G4    6584.668    ATP8f
+   5 GTR+F+I+G4   5970.561    ATP8s
+   6 TN+F+R3      8364.244    ATP8t
+   7 GTR+F+R4     30786.097   COX1f
+   8 TVM+F+R4     13170.730   COX1s
+WARNING: Log-likelihood of TNe+R7 worse than TNe+R6
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: Log-likelihood of TVM+F+R7 worse than TVM+F+R6
+   9 TVM+F+R6     78984.951   COX1t
+  10 GTR+F+R5     19825.649   COX2f	0h:17m:10s (0h:49m:49s left)
+  11 GTR+F+R5     10735.670   COX2s	0h:17m:44s (0h:45m:9s left)
+  12 TPM2u+F+R4   34952.277   COX2t	0h:20m:4s (0h:45m:10s left)
+  13 GTR+F+R5     20962.023   COX3f	0h:20m:54s (0h:41m:48s left)
+  14 GTR+F+R5     10962.710   COX3s	0h:21m:28s (0h:38m:20s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: Log-likelihood of TIM2+F+R6 worse than TIM2+F+R5
+  15 HKY+F+R7     39700.134   COX3t	0h:25m:3s (0h:40m:6s left)
+  16 GTR+F+R6     31077.492   CYTBf	0h:26m:37s (0h:38m:16s left)
+  17 GTR+F+I+G4   16047.900   CYTBs	0h:27m:16s (0h:35m:17s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  18 TIM3+F+R4    58892.751   CYTBt	0h:32m:53s (0h:38m:22s left)
+  19 TVM+F+R6     27915.001   ND1f	0h:34m:0s (0h:35m:48s left)
+  20 GTR+F+I+G4   14842.445   ND1s	0h:34m:38s (0h:32m:54s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  21 TPM2+F+R4    46458.417   ND1t	0h:39m:48s (0h:34m:7s left)
+  22 GTR+F+R5     46001.526   ND2f	0h:41m:29s (0h:32m:3s left)
+  23 TVM+F+I+G4   29011.837   ND2s	0h:43m:0s (0h:29m:55s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  24 TPM2u+F+R4   60225.027   ND2t	0h:47m:24s (0h:29m:37s left)
+  25 GTR+F+I+G4   13187.547   ND3f	0h:47m:57s (0h:26m:51s left)
+  26 TVM+F+I+G4   7944.438    ND3s	0h:48m:25s (0h:24m:12s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: Log-likelihood of K3Pu+F+R7 worse than K3Pu+F+R6
+  27 K3Pu+F+R6    19533.344   ND3t	0h:49m:33s (0h:22m:1s left)
+  28 TVM+F+R5     46374.542   ND4f	0h:51m:52s (0h:20m:22s left)
+  29 GTR+F+R5     28735.099   ND4s	0h:53m:7s (0h:18m:19s left)
+  30 TPM3u+F+I+G4 67584.562   ND4t	0h:58m:45s (0h:17m:37s left)
+  31 TVM+F+R4     10297.082   ND4Lf	0h:59m:10s (0h:15m:16s left)
+  32 TVM+F+I+G4   6935.499    ND4Ls	0h:59m:29s (0h:13m:0s left)
+  33 TN+F+I+G4    13882.692   ND4Lt	1h:0m:17s (0h:10m:57s left)
+  34 GTR+F+R5     56772.041   ND5f	1h:4m:19s (0h:9m:27s left)
+  35 GTR+F+R6     38825.905   ND5s	1h:6m:24s (0h:7m:35s left)
+  36 TPM3u+F+R5   86121.853   ND5t	1h:17m:9s (0h:6m:25s left)
+  37 GTR+F+R5     23721.523   ND6f	1h:18m:29s (0h:4m:14s left)
+  38 TVM+F+R5     16576.418   ND6s	1h:19m:26s (0h:2m:5s left)
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+  39 TPM2+F+R4    28399.664   ND6t	1h:21m:40s (0h:0m:0s left)
+Full partition model BIC score: 1146940.796 (LnL: -570063.503  df:726)
+Partition information was printed to TransProportBOTH.best_scheme.nex
+Partition information in Raxml format was printed to TransProportBOTH.best_scheme
+
+All model information printed to TransProportBOTH.model.gz
+CPU time for ModelFinder: 4900.488 seconds (1h:21m:40s)
+Wall-clock time for ModelFinder: 4901.434 seconds (1h:21m:41s)
+Generating 1000 samples for ultrafast bootstrap (seed: 753672)...
+
+NOTE: 176 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -608879.090
+Current log-likelihood at step 1: -576651.360
+Current log-likelihood at step 2: -572942.031
+Current log-likelihood at step 3: -571721.148
+Current log-likelihood at step 4: -571301.246
+Current log-likelihood at step 5: -571003.511
+Current log-likelihood at step 6: -570837.832
+Current log-likelihood at step 7: -570745.036
+Current log-likelihood at step 8: -570672.999
+Current log-likelihood at step 9: -570611.429
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 10: -570557.675
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 11: -570509.802
+Current log-likelihood at step 12: -570465.011
+Current log-likelihood at step 13: -570426.765
+Current log-likelihood at step 14: -570392.053
+Current log-likelihood at step 15: -570357.624
+Current log-likelihood at step 16: -570325.652
+Current log-likelihood at step 17: -570300.011
+Current log-likelihood at step 18: -570276.309
+Current log-likelihood at step 19: -570255.069
+Current log-likelihood at step 20: -570235.592
+Current log-likelihood at step 21: -570217.629
+Current log-likelihood at step 22: -570200.928
+Current log-likelihood at step 23: -570185.083
+Current log-likelihood at step 24: -570169.400
+Current log-likelihood at step 25: -570153.036
+Current log-likelihood at step 26: -570138.325
+Current log-likelihood at step 27: -570125.920
+Current log-likelihood at step 28: -570115.271
+Current log-likelihood at step 29: -570105.312
+Current log-likelihood at step 30: -570095.644
+Current log-likelihood at step 31: -570086.914
+Current log-likelihood at step 32: -570078.672
+Current log-likelihood at step 33: -570072.516
+Current log-likelihood at step 34: -570064.892
+Current log-likelihood at step 35: -570059.543
+Current log-likelihood at step 36: -570040.340
+Current log-likelihood at step 37: -570019.959
+Current log-likelihood at step 38: -569985.482
+Current log-likelihood at step 39: -569981.896
+Current log-likelihood at step 40: -569973.605
+Current log-likelihood at step 41: -569972.002
+Current log-likelihood at step 42: -569964.930
+Current log-likelihood at step 43: -569963.607
+Current log-likelihood at step 44: -569957.150
+Current log-likelihood at step 45: -569955.862
+Current log-likelihood at step 46: -569949.919
+Current log-likelihood at step 47: -569948.776
+Current log-likelihood at step 48: -569943.293
+Current log-likelihood at step 49: -569942.188
+Current log-likelihood at step 50: -569937.129
+Current log-likelihood at step 51: -569936.059
+Current log-likelihood at step 52: -569931.435
+Current log-likelihood at step 53: -569930.556
+Current log-likelihood at step 54: -569926.216
+Current log-likelihood at step 55: -569925.328
+Current log-likelihood at step 56: -569921.427
+Current log-likelihood at step 57: -569920.669
+Current log-likelihood at step 58: -569917.128
+Current log-likelihood at step 59: -569916.347
+Current log-likelihood at step 60: -569914.100
+Current log-likelihood at step 61: -569913.491
+Current log-likelihood at step 62: -569911.643
+Current log-likelihood at step 63: -569911.085
+Current log-likelihood at step 64: -569910.184
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 65: -569909.162
+Current log-likelihood at step 66: -569908.731
+Current log-likelihood at step 67: -569908.605
+Current log-likelihood at step 68: -569907.382
+Current log-likelihood at step 69: -569904.813
+Current log-likelihood at step 70: -569904.161
+Current log-likelihood at step 71: -569904.047
+Current log-likelihood at step 72: -569903.311
+Current log-likelihood at step 73: -569902.961
+Current log-likelihood at step 74: -569902.872
+Partition-specific rates:  0.171 0.059 2.783 0.374 0.191 0.997 0.082 0.021 2.969 0.127 0.054 2.978 0.111 0.043 3.060 0.132 0.054 2.983 0.125 0.061 2.098 0.254 0.115 3.350 0.180 0.113 3.172 0.163 0.075 1.844 0.166 0.145 1.308 0.155 0.086 2.968 0.364 0.199 3.363
+Parameters optimization took 73 rounds (630.737 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Computing ML distances based on estimated model parameters... 5.568 sec
+Computing BIONJ tree...
+0.024 seconds
+Log-likelihood of BIONJ tree: -569346.174
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 31.012 second
+Computing log-likelihood of 98 initial trees ... 176.623 seconds
+Current best score: -569346.174
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -569012.590
+Current log-likelihood at step 1: -568902.331
+Current log-likelihood at step 2: -568883.212
+Current log-likelihood at step 3: -568870.532
+Current log-likelihood at step 4: -568862.859
+Current log-likelihood at step 5: -568856.428
+Current log-likelihood at step 6: -568850.807
+Current log-likelihood at step 7: -568845.726
+Current log-likelihood at step 8: -568840.739
+Current log-likelihood at step 9: -568836.186
+Current log-likelihood at step 10: -568831.631
+Current log-likelihood at step 11: -568827.455
+Current log-likelihood at step 12: -568823.253
+Current log-likelihood at step 13: -568819.453
+Current log-likelihood at step 14: -568815.584
+Current log-likelihood at step 15: -568812.079
+Current log-likelihood at step 16: -568808.513
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 17: -568805.235
+Current log-likelihood at step 18: -568801.927
+Current log-likelihood at step 19: -568798.933
+Current log-likelihood at step 20: -568795.994
+Current log-likelihood at step 21: -568793.184
+Current log-likelihood at step 22: -568790.425
+Current log-likelihood at step 23: -568787.876
+Current log-likelihood at step 24: -568785.277
+Current log-likelihood at step 25: -568782.873
+Current log-likelihood at step 26: -568780.478
+Current log-likelihood at step 27: -568778.247
+Current log-likelihood at step 28: -568775.961
+Current log-likelihood at step 29: -568773.915
+Current log-likelihood at step 30: -568771.730
+Current log-likelihood at step 31: -568769.786
+Current log-likelihood at step 32: -568767.781
+Current log-likelihood at step 33: -568765.914
+Current log-likelihood at step 34: -568763.995
+Current log-likelihood at step 35: -568762.260
+Current log-likelihood at step 36: -568760.414
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 37: -568758.738
+Current log-likelihood at step 38: -568757.059
+Current log-likelihood at step 39: -568755.491
+Current log-likelihood at step 40: -568753.941
+Current log-likelihood at step 41: -568752.421
+Current log-likelihood at step 42: -568750.989
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 43: -568749.558
+Current log-likelihood at step 44: -568748.194
+Current log-likelihood at step 45: -568746.886
+Current log-likelihood at step 46: -568745.528
+Current log-likelihood at step 47: -568744.262
+Current log-likelihood at step 48: -568742.962
+Current log-likelihood at step 49: -568741.744
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 50: -568740.529
+Current log-likelihood at step 51: -568739.306
+Current log-likelihood at step 52: -568738.086
+Current log-likelihood at step 53: -568736.695
+Current log-likelihood at step 54: -568733.258
+Current log-likelihood at step 55: -568721.890
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 56: -568716.626
+Current log-likelihood at step 57: -568715.054
+Current log-likelihood at step 58: -568713.837
+Current log-likelihood at step 59: -568712.643
+Current log-likelihood at step 60: -568711.523
+Current log-likelihood at step 61: -568710.438
+Current log-likelihood at step 62: -568709.325
+Current log-likelihood at step 63: -568708.319
+Current log-likelihood at step 64: -568707.327
+Current log-likelihood at step 65: -568706.416
+Current log-likelihood at step 66: -568705.522
+Current log-likelihood at step 67: -568704.478
+Current log-likelihood at step 68: -568703.701
+Current log-likelihood at step 69: -568702.955
+Current log-likelihood at step 70: -568702.225
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 71: -568701.543
+Current log-likelihood at step 72: -568700.901
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 73: -568700.249
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 74: -568699.637
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 75: -568699.042
+Current log-likelihood at step 76: -568698.478
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 77: -568697.899
+Current log-likelihood at step 78: -568697.354
+Current log-likelihood at step 79: -568696.840
+Current log-likelihood at step 80: -568696.340
+Current log-likelihood at step 81: -568695.815
+Current log-likelihood at step 82: -568695.344
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 83: -568694.888
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 84: -568694.447
+Current log-likelihood at step 85: -568693.988
+Current log-likelihood at step 86: -568693.565
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 87: -568693.156
+Current log-likelihood at step 88: -568692.767
+Current log-likelihood at step 89: -568692.344
+Current log-likelihood at step 90: -568691.965
+Current log-likelihood at step 91: -568691.602
+Current log-likelihood at step 92: -568691.243
+Current log-likelihood at step 93: -568690.872
+Current log-likelihood at step 94: -568690.525
+Current log-likelihood at step 95: -568690.176
+Current log-likelihood at step 96: -568689.838
+Current log-likelihood at step 97: -568689.513
+Current log-likelihood at step 98: -568689.157
+Current log-likelihood at step 99: -568688.835
+Parameters optimization took 99 rounds (811.633 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -568688.835
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568672.061
+Current log-likelihood at step 1: -568667.069
+Current log-likelihood at step 2: -568666.087
+Current log-likelihood at step 3: -568665.513
+Current log-likelihood at step 4: -568665.041
+Current log-likelihood at step 5: -568664.618
+Current log-likelihood at step 6: -568664.149
+Current log-likelihood at step 7: -568663.552
+Current log-likelihood at step 8: -568662.739
+Current log-likelihood at step 9: -568662.078
+Current log-likelihood at step 10: -568661.516
+Current log-likelihood at step 11: -568660.919
+Current log-likelihood at step 12: -568660.360
+Current log-likelihood at step 13: -568659.822
+Current log-likelihood at step 14: -568659.392
+Current log-likelihood at step 15: -568659.027
+Current log-likelihood at step 16: -568658.673
+Current log-likelihood at step 17: -568658.392
+Current log-likelihood at step 18: -568658.157
+Current log-likelihood at step 19: -568657.904
+Current log-likelihood at step 20: -568657.674
+Current log-likelihood at step 21: -568657.430
+Current log-likelihood at step 22: -568657.155
+Current log-likelihood at step 23: -568656.923
+Current log-likelihood at step 24: -568656.715
+Current log-likelihood at step 25: -568656.415
+Current log-likelihood at step 26: -568656.205
+Current log-likelihood at step 27: -568655.969
+Current log-likelihood at step 28: -568655.765
+Current log-likelihood at step 29: -568655.569
+Current log-likelihood at step 30: -568655.378
+Current log-likelihood at step 31: -568655.189
+Current log-likelihood at step 32: -568655.005
+Current log-likelihood at step 33: -568654.831
+Current log-likelihood at step 34: -568654.559
+Current log-likelihood at step 35: -568654.369
+Current log-likelihood at step 36: -568654.193
+Current log-likelihood at step 37: -568654.020
+Current log-likelihood at step 38: -568653.852
+Current log-likelihood at step 39: -568653.683
+Current log-likelihood at step 40: -568653.515
+Current log-likelihood at step 41: -568653.348
+Current log-likelihood at step 42: -568653.178
+Current log-likelihood at step 43: -568652.965
+Current log-likelihood at step 44: -568652.803
+Current log-likelihood at step 45: -568652.640
+Current log-likelihood at step 46: -568652.479
+Current log-likelihood at step 47: -568652.320
+Current log-likelihood at step 48: -568652.165
+Current log-likelihood at step 49: -568652.012
+Current log-likelihood at step 50: -568651.863
+Current log-likelihood at step 51: -568651.700
+Current log-likelihood at step 52: -568651.553
+Current log-likelihood at step 53: -568651.348
+Current log-likelihood at step 54: -568651.193
+Current log-likelihood at step 55: -568651.048
+Current log-likelihood at step 56: -568650.896
+Current log-likelihood at step 57: -568650.752
+Current log-likelihood at step 58: -568650.610
+Current log-likelihood at step 59: -568650.461
+Current log-likelihood at step 60: -568650.320
+Current log-likelihood at step 61: -568650.175
+Current log-likelihood at step 62: -568650.001
+Current log-likelihood at step 63: -568649.860
+Current log-likelihood at step 64: -568649.716
+Current log-likelihood at step 65: -568649.579
+Current log-likelihood at step 66: -568649.438
+Current log-likelihood at step 67: -568649.307
+Current log-likelihood at step 68: -568649.169
+Current log-likelihood at step 69: -568649.038
+Current log-likelihood at step 70: -568648.870
+Current log-likelihood at step 71: -568648.740
+Current log-likelihood at step 72: -568648.602
+Current log-likelihood at step 73: -568648.473
+Current log-likelihood at step 74: -568648.342
+Current log-likelihood at step 75: -568648.210
+Current log-likelihood at step 76: -568648.081
+Current log-likelihood at step 77: -568647.954
+Current log-likelihood at step 78: -568647.832
+Current log-likelihood at step 79: -568647.677
+Current log-likelihood at step 80: -568647.554
+Current log-likelihood at step 81: -568647.430
+Current log-likelihood at step 82: -568647.305
+Current log-likelihood at step 83: -568647.182
+Current log-likelihood at step 84: -568647.059
+Current log-likelihood at step 85: -568646.942
+Current log-likelihood at step 86: -568646.821
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 87: -568646.677
+Current log-likelihood at step 88: -568646.556
+Current log-likelihood at step 89: -568646.439
+Current log-likelihood at step 90: -568646.322
+Current log-likelihood at step 91: -568646.207
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 92: -568646.088
+Current log-likelihood at step 93: -568645.982
+Current log-likelihood at step 94: -568645.857
+Current log-likelihood at step 95: -568645.754
+Current log-likelihood at step 96: -568645.647
+Current log-likelihood at step 97: -568645.545
+Current log-likelihood at step 98: -568645.443
+Current log-likelihood at step 99: -568645.342
+Parameters optimization took 99 rounds (530.294 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -568645.342
+Iteration 10 / LogL: -568680.046 / Time: 0h:40m:51s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568621.877
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 1: -568618.276
+Current log-likelihood at step 2: -568617.755
+Current log-likelihood at step 3: -568617.546
+Current log-likelihood at step 4: -568617.387
+Current log-likelihood at step 5: -568617.236
+Current log-likelihood at step 6: -568617.101
+Current log-likelihood at step 7: -568616.979
+Current log-likelihood at step 8: -568616.860
+Current log-likelihood at step 9: -568616.753
+Current log-likelihood at step 10: -568616.630
+Current log-likelihood at step 11: -568616.508
+Current log-likelihood at step 12: -568616.380
+Current log-likelihood at step 13: -568616.217
+Current log-likelihood at step 14: -568615.796
+Current log-likelihood at step 15: -568614.466
+Current log-likelihood at step 16: -568614.040
+Current log-likelihood at step 17: -568613.852
+Current log-likelihood at step 18: -568613.701
+Current log-likelihood at step 19: -568613.567
+Current log-likelihood at step 20: -568613.436
+Current log-likelihood at step 21: -568613.298
+Current log-likelihood at step 22: -568613.160
+Current log-likelihood at step 23: -568613.004
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 24: -568612.839
+Current log-likelihood at step 25: -568612.641
+Current log-likelihood at step 26: -568612.399
+Current log-likelihood at step 27: -568612.142
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 28: -568611.971
+Current log-likelihood at step 29: -568611.856
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 30: -568611.749
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 31: -568611.640
+Current log-likelihood at step 32: -568611.542
+Parameters optimization took 31 rounds (171.028 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 11: -568611.542
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568598.721
+Current log-likelihood at step 1: -568595.605
+Current log-likelihood at step 2: -568595.203
+Current log-likelihood at step 3: -568595.004
+Current log-likelihood at step 4: -568594.814
+Current log-likelihood at step 5: -568594.663
+Current log-likelihood at step 6: -568594.523
+Current log-likelihood at step 7: -568594.393
+Current log-likelihood at step 8: -568594.264
+Current log-likelihood at step 9: -568594.137
+Current log-likelihood at step 10: -568594.005
+Current log-likelihood at step 11: -568593.884
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 12: -568593.758
+Current log-likelihood at step 13: -568593.645
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 14: -568593.521
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 15: -568593.411
+Current log-likelihood at step 16: -568593.293
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 17: -568593.182
+Current log-likelihood at step 18: -568593.068
+Current log-likelihood at step 19: -568592.959
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 20: -568592.846
+Current log-likelihood at step 21: -568592.740
+Current log-likelihood at step 22: -568592.627
+Current log-likelihood at step 23: -568592.523
+Current log-likelihood at step 24: -568592.409
+Current log-likelihood at step 25: -568592.305
+Current log-likelihood at step 26: -568592.200
+Current log-likelihood at step 27: -568592.097
+Current log-likelihood at step 28: -568591.997
+Parameters optimization took 27 rounds (144.045 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 17: -568591.997
+Iteration 20 / LogL: -568708.403 / Time: 0h:50m:57s
+Finish initializing candidate tree set (19)
+Current best tree score: -568591.997 / CPU time: 2412.780
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568512.421
+Current log-likelihood at step 1: -568508.250
+Current log-likelihood at step 2: -568507.513
+Current log-likelihood at step 3: -568507.191
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 4: -568506.992
+Current log-likelihood at step 5: -568506.836
+Current log-likelihood at step 6: -568506.696
+Current log-likelihood at step 7: -568506.578
+Current log-likelihood at step 8: -568506.471
+Current log-likelihood at step 9: -568506.365
+Current log-likelihood at step 10: -568506.267
+Parameters optimization took 9 rounds (56.322 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 24: -568506.267
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568497.525
+Current log-likelihood at step 1: -568494.635
+Current log-likelihood at step 2: -568494.233
+Current log-likelihood at step 3: -568494.090
+Current log-likelihood at step 4: -568493.986
+Current log-likelihood at step 5: -568493.878
+Current log-likelihood at step 6: -568493.788
+Parameters optimization took 5 rounds (35.602 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 26: -568493.788
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568400.381
+Current log-likelihood at step 1: -568398.011
+Current log-likelihood at step 2: -568397.565
+Current log-likelihood at step 3: -568397.393
+Current log-likelihood at step 4: -568397.260
+Current log-likelihood at step 5: -568397.142
+Current log-likelihood at step 6: -568397.037
+Current log-likelihood at step 7: -568396.931
+Current log-likelihood at step 8: -568396.820
+Current log-likelihood at step 9: -568396.718
+Current log-likelihood at step 10: -568396.606
+Current log-likelihood at step 11: -568396.508
+Parameters optimization took 10 rounds (57.782 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 30: -568396.508
+Iteration 30 / LogL: -568396.508 / Time: 0h:56m:14s (3h:13m:57s left)
+Iteration 40 / LogL: -568400.807 / Time: 0h:59m:12s (2h:16m:37s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568393.241
+Current log-likelihood at step 1: -568391.088
+Current log-likelihood at step 2: -568390.885
+Current log-likelihood at step 3: -568390.770
+Current log-likelihood at step 4: -568390.676
+Parameters optimization took 3 rounds (24.772 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 50: -568390.676
+Iteration 50 / LogL: -568390.676 / Time: 1h:2m:18s (2h:7m:9s left)
+Iteration 60 / LogL: -568401.444 / Time: 1h:5m:3s (1h:39m:14s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568390.560
+Current log-likelihood at step 1: -568390.022
+Current log-likelihood at step 2: -568389.910
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 3: -568389.814
+Parameters optimization took 2 rounds (18.462 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 65: -568389.814
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568385.779
+Current log-likelihood at step 1: -568383.836
+Current log-likelihood at step 2: -568383.612
+Current log-likelihood at step 3: -568383.510
+Current log-likelihood at step 4: -568383.421
+Parameters optimization took 3 rounds (24.833 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 66: -568383.421
+Iteration 70 / LogL: -568391.452 / Time: 1h:8m:33s (1h:35m:23s left)
+Iteration 80 / LogL: -568387.409 / Time: 1h:11m:28s (1h:17m:48s left)
+Iteration 90 / LogL: -568384.431 / Time: 1h:14m:17s (1h:3m:26s left)
+Iteration 100 / LogL: -568387.556 / Time: 1h:17m:4s (0h:51m:22s left)
+Iteration 110 / LogL: -568383.553 / Time: 1h:19m:43s (0h:40m:57s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -568383.400
+Current log-likelihood at step 1: -568383.310
+Parameters optimization took 0 rounds (5.290 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+UPDATE BEST LOG-LIKELIHOOD: -568383.310
+Iteration 120 / LogL: -568384.153 / Time: 1h:22m:30s (0h:31m:53s left)
+Iteration 130 / LogL: -568405.323 / Time: 1h:25m:24s (0h:23m:50s left)
+Iteration 140 / LogL: -568384.832 / Time: 1h:28m:27s (0h:16m:32s left)
+Iteration 150 / LogL: -568389.785 / Time: 1h:31m:17s (0h:9m:48s left)
+Iteration 160 / LogL: -568384.780 / Time: 1h:34m:1s (0h:3m:32s left)
+Refining ufboot trees with NNI 5 branches...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 167 ITERATIONS / Time: 4h:16m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -568383.294
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 1: -568383.197
+Current log-likelihood at step 2: -568383.103
+Current log-likelihood at step 3: -568383.000
+Current log-likelihood at step 4: -568382.897
+Current log-likelihood at step 5: -568382.641
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 6: -568382.548
+Current log-likelihood at step 7: -568382.456
+Current log-likelihood at step 8: -568382.368
+Current log-likelihood at step 9: -568382.274
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 10: -568382.179
+Current log-likelihood at step 11: -568382.091
+Current log-likelihood at step 12: -568381.996
+Current log-likelihood at step 13: -568381.899
+Current log-likelihood at step 14: -568381.802
+Current log-likelihood at step 15: -568381.710
+Current log-likelihood at step 16: -568381.620
+Current log-likelihood at step 17: -568381.533
+Current log-likelihood at step 18: -568381.441
+Current log-likelihood at step 19: -568381.356
+Current log-likelihood at step 20: -568381.271
+Current log-likelihood at step 21: -568381.185
+Current log-likelihood at step 22: -568381.104
+Current log-likelihood at step 23: -568381.022
+Current log-likelihood at step 24: -568380.936
+Current log-likelihood at step 25: -568380.857
+Current log-likelihood at step 26: -568380.780
+Current log-likelihood at step 27: -568380.693
+Current log-likelihood at step 28: -568380.609
+Current log-likelihood at step 29: -568380.530
+Current log-likelihood at step 30: -568380.449
+Current log-likelihood at step 31: -568380.363
+Current log-likelihood at step 32: -568380.287
+Current log-likelihood at step 33: -568380.211
+Current log-likelihood at step 34: -568380.131
+Current log-likelihood at step 35: -568380.052
+Current log-likelihood at step 36: -568379.975
+Current log-likelihood at step 37: -568379.895
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 38: -568379.819
+Current log-likelihood at step 39: -568379.743
+Current log-likelihood at step 40: -568379.669
+Current log-likelihood at step 41: -568379.597
+Current log-likelihood at step 42: -568379.525
+Current log-likelihood at step 43: -568379.457
+Current log-likelihood at step 44: -568379.397
+Current log-likelihood at step 45: -568379.336
+Current log-likelihood at step 46: -568379.274
+Current log-likelihood at step 47: -568379.214
+Current log-likelihood at step 48: -568379.155
+Current log-likelihood at step 49: -568379.097
+Current log-likelihood at step 50: -568379.038
+Current log-likelihood at step 51: -568378.980
+Current log-likelihood at step 52: -568378.922
+Current log-likelihood at step 53: -568378.863
+Current log-likelihood at step 54: -568378.807
+Current log-likelihood at step 55: -568378.754
+Current log-likelihood at step 56: -568378.699
+Current log-likelihood at step 57: -568378.641
+Current log-likelihood at step 58: -568378.587
+Current log-likelihood at step 59: -568378.535
+Current log-likelihood at step 60: -568378.479
+Current log-likelihood at step 61: -568378.425
+Current log-likelihood at step 62: -568378.373
+Current log-likelihood at step 63: -568378.324
+Current log-likelihood at step 64: -568378.274
+Current log-likelihood at step 65: -568378.217
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 66: -568378.166
+Current log-likelihood at step 67: -568378.116
+Current log-likelihood at step 68: -568378.065
+Current log-likelihood at step 69: -568378.010
+Current log-likelihood at step 70: -568377.961
+Current log-likelihood at step 71: -568377.910
+Current log-likelihood at step 72: -568377.857
+Current log-likelihood at step 73: -568377.808
+Current log-likelihood at step 74: -568377.754
+Current log-likelihood at step 75: -568377.709
+Current log-likelihood at step 76: -568377.663
+Current log-likelihood at step 77: -568377.616
+Current log-likelihood at step 78: -568377.572
+Current log-likelihood at step 79: -568377.529
+Current log-likelihood at step 80: -568377.484
+WARNING: ABNORMAL_TERMINATION_IN_LNSRCH
+Current log-likelihood at step 81: -568377.436
+Current log-likelihood at step 82: -568377.392
+Current log-likelihood at step 83: -568377.346
+Current log-likelihood at step 84: -568377.298
+Current log-likelihood at step 85: -568377.254
+Current log-likelihood at step 86: -568377.210
+Current log-likelihood at step 87: -568377.165
+Current log-likelihood at step 88: -568377.118
+Current log-likelihood at step 89: -568377.074
+Current log-likelihood at step 90: -568377.033
+Current log-likelihood at step 91: -568376.993
+Current log-likelihood at step 92: -568376.950
+Current log-likelihood at step 93: -568376.909
+Current log-likelihood at step 94: -568376.865
+Current log-likelihood at step 95: -568376.825
+Current log-likelihood at step 96: -568376.785
+Current log-likelihood at step 97: -568376.742
+Current log-likelihood at step 98: -568376.700
+Current log-likelihood at step 99: -568376.657
+Partition-specific rates:  0.105 0.035 2.667 0.211 0.114 0.629 0.050 0.011 4.565 0.077 0.030 5.195 0.068 0.025 3.188 0.082 0.032 3.850 0.074 0.035 1.370 0.153 0.068 2.035 0.112 0.064 5.560 0.098 0.044 1.196 0.100 0.048 0.778 0.092 0.051 2.705 0.223 0.119 2.015
+Parameters optimization took 99 rounds (536.676 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BEST SCORE FOUND : -568376.657
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file TransProportBOTH.splits.nex
+Total tree length: 244.255
+
+Total number of iterations: 167
+CPU time used for tree search: 14650.508 sec (4h:4m:10s)
+Wall-clock time used for tree search: 14734.723 sec (4h:5m:34s)
+Total CPU time used: 15829.272 sec (4h:23m:49s)
+Total wall-clock time used: 15917.305 sec (4h:25m:17s)
+UFBoot trees printed to TransProportBOTH.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file TransProportBOTH.splits.nex...
+94 taxa and 990 splits.
+Consensus tree written to TransProportBOTH.contree
+Reading input trees file TransProportBOTH.contree
+Log-likelihood of consensus tree: -568402.651
+
+Analysis results written to: 
+  IQ-TREE report:                TransProportBOTH.iqtree
+  Maximum-likelihood tree:       TransProportBOTH.treefile
+  Likelihood distances:          TransProportBOTH.mldist
+  Best partitioning scheme:      TransProportBOTH.best_scheme.nex
+           in RAxML format:      TransProportBOTH.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          TransProportBOTH.splits.nex
+  Consensus tree:                TransProportBOTH.contree
+  UFBoot trees:                  TransProportBOTH.ufboot
+  Screen log file:               TransProportBOTH.log
+
+Date and Time: Tue May  5 09:46:13 2020
