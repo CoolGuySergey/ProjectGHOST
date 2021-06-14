@@ -1,1 +1,1 @@
-# ProjrctGHOST
+# ProjectGHOST
